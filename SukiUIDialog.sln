@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SukiUIDialog", "SukiUIDialog\SukiUIDialog.csproj", "{08E63748-E850-E7AF-AC19-390330A96A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SukiUIDialog.Desktop", "SukiUIDialog.Desktop\SukiUIDialog.Desktop.csproj", "{AD567989-8BAA-0F0F-8318-524B6698A237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08E63748-E850-E7AF-AC19-390330A96A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E63748-E850-E7AF-AC19-390330A96A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E63748-E850-E7AF-AC19-390330A96A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E63748-E850-E7AF-AC19-390330A96A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD567989-8BAA-0F0F-8318-524B6698A237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD567989-8BAA-0F0F-8318-524B6698A237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD567989-8BAA-0F0F-8318-524B6698A237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD567989-8BAA-0F0F-8318-524B6698A237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E38DD2CF-EB6A-4746-96C9-B461176A3C86}
+	EndGlobalSection
+EndGlobal

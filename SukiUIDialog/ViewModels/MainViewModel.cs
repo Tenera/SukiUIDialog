@@ -19,7 +19,10 @@ public partial class MainViewModel : ViewModelBase
     private void OpenDialog()
     {
         MainWindow.DialogManager.CreateDialog()
-            .WithViewModel(x => new SettingsViewModel(x))
+            .WithContent(new SettingsView()
+            {
+                DataContext = new SettingsViewModel()
+            })
             .Dismiss().ByClickingBackground()
             .TryShow();
     }
